@@ -18,6 +18,7 @@
 		CE978E2F2557F20C004D9B2B /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E2E2557F20C004D9B2B /* CheckBox.swift */; };
 		CE978E322557FFB2004D9B2B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E312557FFB2004D9B2B /* Color+Extension.swift */; };
 		CE978E342558007B004D9B2B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E332558007B004D9B2B /* UserView.swift */; };
+		CE978E3825582192004D9B2B /* TodoEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E3725582192004D9B2B /* TodoEntity+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		CE978E2E2557F20C004D9B2B /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		CE978E312557FFB2004D9B2B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		CE978E332558007B004D9B2B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		CE978E3725582192004D9B2B /* TodoEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				CE978E312557FFB2004D9B2B /* Color+Extension.swift */,
+				CE978E3725582192004D9B2B /* TodoEntity+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				CE978E2F2557F20C004D9B2B /* CheckBox.swift in Sources */,
 				CE978E1D2557EE42004D9B2B /* ContentView.swift in Sources */,
 				CE978E2D2557EE90004D9B2B /* CategoryImage.swift in Sources */,
+				CE978E3825582192004D9B2B /* TodoEntity+Extension.swift in Sources */,
 				CE978E182557EE42004D9B2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
