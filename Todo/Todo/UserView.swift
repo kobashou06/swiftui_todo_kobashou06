@@ -15,13 +15,19 @@ struct UserView: View {
                 Text("こんにちは")
                 Text("Shouta Kobayashi")
             }
-            Image("profile").resizable().frame(width:60,height:60)
+            Image("profile")
+                .resizable()
+                .frame(width:60,height:60)
+                .clipShape(Circle())
         }
     }
 }
 
 struct UserView_Previews: PreviewProvider {
     static var previews: some View {
-        UserView()
+        Group {
+            UserView()
+            Circle()
+        }
     }
 }
