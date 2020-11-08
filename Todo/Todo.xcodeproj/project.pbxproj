@@ -16,6 +16,7 @@
 		CE978E252557EE44004D9B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE978E232557EE44004D9B2B /* LaunchScreen.storyboard */; };
 		CE978E2D2557EE90004D9B2B /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E2C2557EE90004D9B2B /* CategoryImage.swift */; };
 		CE978E2F2557F20C004D9B2B /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E2E2557F20C004D9B2B /* CheckBox.swift */; };
+		CE978E322557FFB2004D9B2B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E312557FFB2004D9B2B /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CE978E262557EE44004D9B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE978E2C2557EE90004D9B2B /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
 		CE978E2E2557F20C004D9B2B /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		CE978E312557FFB2004D9B2B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		CE978E142557EE42004D9B2B /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				CE978E302557FF6A004D9B2B /* Extension */,
 				CE978E152557EE42004D9B2B /* AppDelegate.swift */,
 				CE978E172557EE42004D9B2B /* SceneDelegate.swift */,
 				CE978E1C2557EE42004D9B2B /* ContentView.swift */,
@@ -82,6 +85,14 @@
 				CE978E212557EE44004D9B2B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE978E302557FF6A004D9B2B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE978E312557FFB2004D9B2B /* Color+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE978E162557EE42004D9B2B /* AppDelegate.swift in Sources */,
+				CE978E322557FFB2004D9B2B /* Color+Extension.swift in Sources */,
 				CE978E1B2557EE42004D9B2B /* Todo.xcdatamodeld in Sources */,
 				CE978E2F2557F20C004D9B2B /* CheckBox.swift in Sources */,
 				CE978E1D2557EE42004D9B2B /* ContentView.swift in Sources */,
