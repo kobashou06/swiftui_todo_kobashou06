@@ -9,13 +9,17 @@
 import SwiftUI
 
 struct UserView: View {
+    
+    let image: Image
+    let userName: String
+    
     var body: some View {
         HStack {
             VStack (alignment: .leading){
                 Text("こんにちは")
                     .foregroundColor(Color.tTitle)
                     .font(.footnote)
-                Text("Shouta Kobayashi")
+                Text("\(userName)")
                     .foregroundColor(Color.tTitle)
                     .font(.title)
             }
@@ -33,7 +37,7 @@ struct UserView: View {
 struct UserView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            UserView()
+            UserView(image: Image("profile"),userName: "User Name")
             Circle()
         }
     }
