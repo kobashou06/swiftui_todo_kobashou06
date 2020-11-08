@@ -17,6 +17,7 @@
 		CE978E2D2557EE90004D9B2B /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E2C2557EE90004D9B2B /* CategoryImage.swift */; };
 		CE978E2F2557F20C004D9B2B /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E2E2557F20C004D9B2B /* CheckBox.swift */; };
 		CE978E322557FFB2004D9B2B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E312557FFB2004D9B2B /* Color+Extension.swift */; };
+		CE978E342558007B004D9B2B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E332558007B004D9B2B /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CE978E2C2557EE90004D9B2B /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
 		CE978E2E2557F20C004D9B2B /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		CE978E312557FFB2004D9B2B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		CE978E332558007B004D9B2B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				CE978E1C2557EE42004D9B2B /* ContentView.swift */,
 				CE978E2C2557EE90004D9B2B /* CategoryImage.swift */,
 				CE978E2E2557F20C004D9B2B /* CheckBox.swift */,
+				CE978E332558007B004D9B2B /* UserView.swift */,
 				CE978E1E2557EE44004D9B2B /* Assets.xcassets */,
 				CE978E232557EE44004D9B2B /* LaunchScreen.storyboard */,
 				CE978E262557EE44004D9B2B /* Info.plist */,
@@ -169,6 +172,7 @@
 				CE978E162557EE42004D9B2B /* AppDelegate.swift in Sources */,
 				CE978E322557FFB2004D9B2B /* Color+Extension.swift in Sources */,
 				CE978E1B2557EE42004D9B2B /* Todo.xcdatamodeld in Sources */,
+				CE978E342558007B004D9B2B /* UserView.swift in Sources */,
 				CE978E2F2557F20C004D9B2B /* CheckBox.swift in Sources */,
 				CE978E1D2557EE42004D9B2B /* ContentView.swift in Sources */,
 				CE978E2D2557EE90004D9B2B /* CategoryImage.swift in Sources */,
