@@ -15,6 +15,7 @@
 		CE978E222557EE44004D9B2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE978E212557EE44004D9B2B /* Preview Assets.xcassets */; };
 		CE978E252557EE44004D9B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE978E232557EE44004D9B2B /* LaunchScreen.storyboard */; };
 		CE978E2D2557EE90004D9B2B /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E2C2557EE90004D9B2B /* CategoryImage.swift */; };
+		CE978E2F2557F20C004D9B2B /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E2E2557F20C004D9B2B /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CE978E242557EE44004D9B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE978E262557EE44004D9B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE978E2C2557EE90004D9B2B /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
+		CE978E2E2557F20C004D9B2B /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				CE978E172557EE42004D9B2B /* SceneDelegate.swift */,
 				CE978E1C2557EE42004D9B2B /* ContentView.swift */,
 				CE978E2C2557EE90004D9B2B /* CategoryImage.swift */,
+				CE978E2E2557F20C004D9B2B /* CheckBox.swift */,
 				CE978E1E2557EE44004D9B2B /* Assets.xcassets */,
 				CE978E232557EE44004D9B2B /* LaunchScreen.storyboard */,
 				CE978E262557EE44004D9B2B /* Info.plist */,
@@ -154,6 +157,7 @@
 			files = (
 				CE978E162557EE42004D9B2B /* AppDelegate.swift in Sources */,
 				CE978E1B2557EE42004D9B2B /* Todo.xcdatamodeld in Sources */,
+				CE978E2F2557F20C004D9B2B /* CheckBox.swift in Sources */,
 				CE978E1D2557EE42004D9B2B /* ContentView.swift in Sources */,
 				CE978E2D2557EE90004D9B2B /* CategoryImage.swift in Sources */,
 				CE978E182557EE42004D9B2B /* SceneDelegate.swift in Sources */,
