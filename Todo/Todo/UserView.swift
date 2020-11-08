@@ -13,13 +13,18 @@ struct UserView: View {
         HStack {
             VStack (alignment: .leading){
                 Text("こんにちは")
+                    .foregroundColor(Color.tTitle)
                 Text("Shouta Kobayashi")
+                    .foregroundColor(Color.tTitle)
             }
+            Spacer()
             Image("profile")
                 .resizable()
                 .frame(width:60,height:60)
                 .clipShape(Circle())
-        }
+            }
+        .padding()
+        .background(Color.tBackground)
     }
 }
 
