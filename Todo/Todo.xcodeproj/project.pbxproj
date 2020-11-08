@@ -21,6 +21,7 @@
 		CE978E3825582192004D9B2B /* TodoEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E3725582192004D9B2B /* TodoEntity+Extension.swift */; };
 		CE978E3A25582277004D9B2B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E3925582277004D9B2B /* CategoryView.swift */; };
 		CE978E3C255827B6004D9B2B /* QuickNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E3B255827B6004D9B2B /* QuickNewTask.swift */; };
+		CE978E3E25582B8F004D9B2B /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978E3D25582B8F004D9B2B /* TodoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		CE978E3725582192004D9B2B /* TodoEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+Extension.swift"; sourceTree = "<group>"; };
 		CE978E3925582277004D9B2B /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		CE978E3B255827B6004D9B2B /* QuickNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNewTask.swift; sourceTree = "<group>"; };
+		CE978E3D25582B8F004D9B2B /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				CE978E332558007B004D9B2B /* UserView.swift */,
 				CE978E3925582277004D9B2B /* CategoryView.swift */,
 				CE978E3B255827B6004D9B2B /* QuickNewTask.swift */,
+				CE978E3D25582B8F004D9B2B /* TodoList.swift */,
 				CE978E1E2557EE44004D9B2B /* Assets.xcassets */,
 				CE978E232557EE44004D9B2B /* LaunchScreen.storyboard */,
 				CE978E262557EE44004D9B2B /* Info.plist */,
@@ -181,6 +184,7 @@
 				CE978E162557EE42004D9B2B /* AppDelegate.swift in Sources */,
 				CE978E3C255827B6004D9B2B /* QuickNewTask.swift in Sources */,
 				CE978E322557FFB2004D9B2B /* Color+Extension.swift in Sources */,
+				CE978E3E25582B8F004D9B2B /* TodoList.swift in Sources */,
 				CE978E1B2557EE42004D9B2B /* Todo.xcdatamodeld in Sources */,
 				CE978E342558007B004D9B2B /* UserView.swift in Sources */,
 				CE978E3A25582277004D9B2B /* CategoryView.swift in Sources */,
