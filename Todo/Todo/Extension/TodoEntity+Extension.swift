@@ -80,4 +80,19 @@ extension TodoEntity {
         case todo
         case done
     }
+    
+    static func count(in manadedObjectContext: NSManagedObjectContext,
+                      category: Category) -> Int {
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "TodoEntity")
+        fetchRequest.predicate = NSPredicate(format: "category == \(category.rawValue)")
+        
+        do {
+            let count = try manadedObjectContext.count(for: fetchRequest)
+            return count
+        } catch {
+            print("Error: \(error.localizedDescription)")
+            return 0
+        }
+    
+    }
 }

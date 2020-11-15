@@ -14,11 +14,25 @@ struct CategoryView: View {
     @State var showList = false
     @Environment(\.managedObjectContext) var viewContext
     @State var addNewTask = false
+    
+    fileprivate func update() {
+        self.numberOfTasks = TodoEntity.count(in: self.viewContext,
+                                              category:self.category)
+    }
+    
     var body: some View {
-        VStack(alignment: .leading) {
+        
+        let gradient = Gradient(colors: [category.color(),
+                                         category.color().opacity(0.5)])
+        
+        let linear = LinearGradient(gradient: gradient,
+                                    startPoint: .top,
+                                    endPoint: .bottom)
+        
+        return VStack(alignment: .leading) {
             Image(systemName: category.image())
                 .font(.largeTitle)
-                .sheet(isPresented: $showList){
+                .sheet(isPresented: $showList, onDismiss: {self.update()}){
                     TodoList(category: self.category)
                         .environment(\.managedObjectContext, self.viewContext)
                 }
@@ -29,7 +43,7 @@ struct CategoryView: View {
                 self.addNewTask = true
             }) {
                 Image(systemName: "plus")
-            }.sheet(isPresented: $addNewTask){
+            }.sheet(isPresented: $addNewTask, onDismiss: {self.update()}){
                 NewTask(category: self.category.rawValue)
                     .environment(\.managedObjectContext, self.viewContext)
             }
@@ -38,10 +52,13 @@ struct CategoryView: View {
             .padding()
         .frame(maxWidth: .infinity, minHeight: 150)
             .foregroundColor(Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)))
-            .background(category.color())
+            .background(linear)
             .cornerRadius(20)
-        .onTapGesture {
-            self.showList = true
+            .onTapGesture {
+                self.showList = true
+            }
+        .onAppear {
+            self.update()
         }
     }
 }
