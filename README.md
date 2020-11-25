@@ -30,8 +30,8 @@ i am studying https://www.udemy.com/course/swiftui-todo/
 # 残りやるべきこと
 
 
-- 今まで作った各Viewの組み立て作業
+- ~~今まで作った各Viewの組み立て作業~~
 
-- レイアウトを整えていく
+- ~~レイアウトを整えていく~~
 
 - MVVM設計になっているのか？
